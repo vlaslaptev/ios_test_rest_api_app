@@ -20,6 +20,18 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBOutlet weak var labelTest: UILabel!
+    
+    @IBAction func tapBtn(_ sender: Any) {
+        guard var url = URL(string: "https://whatthecommit.com") else { return }
+        
+        let session = URLSession.shared
+        session.dataTask(with: url) { (data, response, error) in
+            if let response = response {
+                self.labelTest.text = "ok"
+                print(response)
+            }
+            }.resume()
+    }
 }
 
