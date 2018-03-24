@@ -274,11 +274,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_WARNINGS = NO;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES_ERROR;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES_ERROR;
+				IBSC_WARNINGS = NO;
 				INFOPLIST_FILE = rest_api_test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "test.rest-api-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
+				SWIFT_TREAT_WARNINGS_AS_ERRORS = NO;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -288,11 +294,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_WARNINGS = NO;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES_ERROR;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES_ERROR;
+				IBSC_WARNINGS = NO;
 				INFOPLIST_FILE = rest_api_test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "test.rest-api-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
+				SWIFT_TREAT_WARNINGS_AS_ERRORS = NO;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
